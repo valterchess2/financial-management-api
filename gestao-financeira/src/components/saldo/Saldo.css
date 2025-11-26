@@ -1,0 +1,16 @@
+#saldo {
+    box-shadow: 1px 1px 5px #161518;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+} 
+
+
+.grid-item {
+    margin: 0;
+    border-right: solid 1px #161518;
+}

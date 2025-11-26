@@ -1,0 +1,22 @@
+#sidebar {
+    margin: 0;
+    padding-top: 4rem;
+    max-width: 8%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px #170f2c;
+    gap: 6rem; 
+    background-color: #060c16;
+}
+
+#sidebar a {
+    text-decoration: none;
+    text-decoration: none;
+    transition: .2s;
+    color: #bad4f9
+  }
+ 
+  #sidebar a:hover {
+    color: #fff;
+  }

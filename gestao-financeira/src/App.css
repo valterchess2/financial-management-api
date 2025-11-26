@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+#root  .container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 10% 70%;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
